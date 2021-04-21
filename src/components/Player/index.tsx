@@ -2,10 +2,41 @@ import styles from './styles.module.scss';
 
 export default function Header() {
   return (
-    <header className={styles.headerContainer}>
-      <img src='/logo.svg' alt='Podcastr logo' />
-      <p>O melhor para você ouvir, sempre.</p>
-      <span>a</span>
-    </header>
+    <div className={styles.playerContainer}>
+      <header>
+        <img src='/playing.svg' alt='Tocando agora' />
+        <strong>Tocando agora</strong>
+      </header>
+
+      <div className={styles.emptyPlayer}>
+        <strong>Selecione um podcast para ouvir</strong>
+      </div>
+      <footer className={styles.empty}>
+        <div className={styles.progress}>
+          <span>00:00</span>
+          <div className={styles.slider}>
+            <div className={styles.emptySlider} />
+          </div>
+          <span>00:00</span>
+        </div>
+        <div className={styles.buttons}>
+          <button type='button'>
+            <img src='/shuffle.svg' alt='Podcast aleatório' />
+          </button>
+          <button type='button'>
+            <img src='/play-previous.svg' alt='Tocar anterior' />
+          </button>
+          <button className={styles.playButton} type='button'>
+            <img src='/play.svg' alt='Tocar' />
+          </button>
+          <button type='button'>
+            <img src='/play-next.svg' alt='Tocar próxima' />
+          </button>
+          <button type='button'>
+            <img src='/repeat.svg' alt='Repetir' />
+          </button>
+        </div>
+      </footer>
+    </div>
   );
 }
