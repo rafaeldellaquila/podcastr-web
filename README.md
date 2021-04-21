@@ -5,3 +5,8 @@ Project to study React / Next.js ([Rocketseat](https://app.rocketseat.com.br) co
 - start typing studies in [typescript](https://www.typescriptlang.org/) and my first project with [SASS](https://sass-lang.com/)
 
 - Learning about better Analytics and SSG/SSR Pages
+
+- Dependencies
+  - react
+  - next.js
+  - date-fns
