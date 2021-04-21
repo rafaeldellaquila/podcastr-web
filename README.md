@@ -10,3 +10,4 @@ Project to study React / Next.js ([Rocketseat](https://app.rocketseat.com.br) co
   - react
   - next.js
   - date-fns
+  - json-server
