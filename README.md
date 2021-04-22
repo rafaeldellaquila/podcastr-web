@@ -1,7 +1,5 @@
 ## Podcastr Projetct
 
-Project to study React / Next.js ([Rocketseat](https://app.rocketseat.com.br) course)
-
 - start typing studies in [typescript](https://www.typescriptlang.org/) and my first project with [SASS](https://sass-lang.com/)
 
 - Learning about better Analytics and SSG/SSR Pages
@@ -12,6 +10,7 @@ Project to study React / Next.js ([Rocketseat](https://app.rocketseat.com.br) co
   - next.js
   - date-fns
   - json-server
+  - axios
 
 - Algumas breves anotações pessoais para estudos posteriores (Apagar em breve):
 
@@ -28,10 +27,10 @@ import { useEffect } from 'react';
   }, []);
 ```
 
-SSR - Server Side R ender
+SSR - Server Side Render (Render no servidor)
 o next irá completar a requisição antes de exibir pro usuario
-o primeiro carregamento será feito na camada do next (getServerSideProps()) a página irá ler mesmo com js desabilidade
-Executa toda vez que alguém entra na pagina
+o primeiro carregamento será feito na camada do next (getServerSideProps()) a página irá ler mesmo com js desabilitado
+Executa toda vez que alguém entra na pagina.
 
 ```
 export async function getServerSideProps() {
@@ -46,7 +45,7 @@ export async function getServerSideProps() {
 }
 ```
 
-SSG
+SSG - Statis Site Generation (Geração de site estático)
 Assim que a pessoa acessa, gera um HTML estático e é servido para todas as pessoas, acessando o mesmo conteúdo sem fazer requisisões toda hora deixando a página mais perfomatica
 
 No caso aqui a cada 8h será feito uma requisição pro servidor. (props.revalidate)
