@@ -11,6 +11,7 @@
   - date-fns
   - json-server
   - axios
+  - rc-slider
 
 - Algumas breves anotações pessoais para estudos posteriores (Apagar em breve):
 
