@@ -1,12 +1,9 @@
 <h1 align="center">
-<br>
+  <br>
   <img src="https://raw.githubusercontent.com/rafaeldellaquila/podcastr-web/4a7e5e30fa3175111875959aa47632778503cfde/public/logo.svg" alt="Podcastr" width="200">
-<br>
-<br>
-Podcastr
 </h1>
 
-<p align="center">Page for a Podcast (SSG)</p>
+<p align="center">Page for a Podcast (SSG) just for studies</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/GPL-3.0">
@@ -23,8 +20,6 @@ Podcastr
 
 ## Features
 [//]: #
-This app features all the latest tools and practices in mobile development!
-
 - **React Js**
 - **Next.js**
 - **Axios**
@@ -36,16 +31,22 @@ on root folder after clone run the following commands
 ### Setup
   <br/>
 
-  ```yarn install```
+  ```
+  yarn install
+  ```
 
 ### Back-end start
  <br/>
 
-```yarn server```
+```
+yarn server
+```
 
 ### Front-end start
  <br/>
 
-```yarn dev```
+```
+yarn dev
+```
 
 ---
