@@ -1,9 +1,6 @@
 <h1 align="center">
-<br>
+  <br>
   <img src="https://raw.githubusercontent.com/rafaeldellaquila/podcastr-web/4a7e5e30fa3175111875959aa47632778503cfde/public/logo.svg" alt="Podcastr" width="200">
-<br>
-<br>
-Podcastr
 </h1>
 
 <p align="center">Page for a Podcast (SSG) just for studies</p>
