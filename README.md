@@ -34,16 +34,22 @@ on root folder after clone run the following commands
 ### Setup
   <br/>
 
-  ```yarn install```
+  ```
+  yarn install
+  ```
 
 ### Back-end start
  <br/>
 
-```yarn server```
+```
+yarn server
+```
 
 ### Front-end start
  <br/>
 
-```yarn dev```
+```
+yarn dev
+```
 
 ---
