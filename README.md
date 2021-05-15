@@ -23,6 +23,7 @@
 - **React Js**
 - **Next.js**
 - **Axios**
+- - ***json-server**
 
 ## Getting started
 
